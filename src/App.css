@@ -247,6 +247,13 @@
   border: 1px solid #424961;
   background-color: white;
   color: #424961;
+  display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    margin: auto;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -386,15 +393,6 @@
     right: 10px;
   }
 
-  .slider-container__context-slide-text button{
-    display: -moz-box;
-    -moz-box-pack: center;
-    -moz-box-align: center;
-    display: -webkit-box;
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    margin: auto;
-  }
 }
 
 

@@ -27,11 +27,11 @@ const Footer = () => {
         </nav>
         <nav className='footer-container-social-links'>
             <h1>Social Links</h1>
-            <div className='footer-container-social-links-images'>
+            <nav className='footer-container-social-links-images'>
                 <img src={instagram} alt="instagram" height={21} />
                 <img src={twitter} alt="instagram" height={21} />
                 <img src={facebook} alt="instagram" height={21} />
-            </div>
+            </nav>
             <p>© 2022 Food Truck Example</p>
         </nav>
     </footer>
