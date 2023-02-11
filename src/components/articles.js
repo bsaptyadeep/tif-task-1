@@ -8,6 +8,8 @@ import articleImage6 from "../assets/articleImage6.png";
 
 
 const Articles = () => {
+    // page navigation is done using useState react hook
+    // page state variable
     const [page, setPage] = useState(1);
 
     const data = [
@@ -47,11 +49,13 @@ const Articles = () => {
         ]
     ]
 
+    // next previous page
     const decrement = () => {
         if (page > 1)
             setPage(page - 1);
     }
 
+    // next page
     const increment = () => {
         if (page < 2)
             setPage(page + 1);
